@@ -6,8 +6,10 @@ def prime? (num)
   i = 0
   
   loop do
-    break if i * i >= num
+    
     array << i
+    break if i * i >= num
+   
     i += 1
   end
   array
