@@ -13,5 +13,9 @@ def prime? (num)
     i += 1
   end
   array.each do |prime|
-    
+    if num % prime == 0
+      return false
+    end
+  end
+  return true
 end
