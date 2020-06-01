@@ -18,7 +18,7 @@ def prime? (num)
   end
   
   array.each do |prime|
-    if num % prime == 0
+    if num % prime == 0 && num != 2
       return false
     end
   end
