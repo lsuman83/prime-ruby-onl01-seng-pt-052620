@@ -8,7 +8,7 @@ def prime? (num)
   loop do
     break if i * i >= num
     array << i
-    i++
+    i += 1
   end
   
 end
