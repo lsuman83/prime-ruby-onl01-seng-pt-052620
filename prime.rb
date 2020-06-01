@@ -6,6 +6,7 @@ def prime? (num)
   i = 2
   if num < 2
     return false
+  end
   loop do
     
     array << i
