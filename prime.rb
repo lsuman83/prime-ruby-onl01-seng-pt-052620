@@ -5,7 +5,7 @@ def prime? (num)
   
   i = 0
   
-  until i * i >= num
+   i * i >= num
     array << i
     i++
   
