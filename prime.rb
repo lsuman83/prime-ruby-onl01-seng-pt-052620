@@ -12,5 +12,6 @@ def prime? (num)
     
     i += 1
   end
-  array
+  array.each do |prime|
+    
 end
