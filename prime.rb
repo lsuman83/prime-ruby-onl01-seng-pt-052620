@@ -5,9 +5,10 @@ def prime? (num)
   
   i = 0
   
-   i * i >= num
+  loop do
+    break if i * i >= num
     array << i
     i++
-  
+  end
   array
 end
