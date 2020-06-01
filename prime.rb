@@ -3,7 +3,11 @@ def prime? (num)
 
   array = []
   
-  index = 0
+  i = 0
   
-  
+  until i * i >= num
+    array << i
+    i++
+  end
+  array
 end
