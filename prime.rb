@@ -4,7 +4,8 @@ def prime? (num)
   array = []
   
   i = 2
-  
+  if num < 2
+    return false
   loop do
     
     array << i
