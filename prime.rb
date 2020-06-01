@@ -3,7 +3,7 @@ def prime? (num)
 
   array = []
   
-  i = 1
+  i = 2
   
   loop do
     
