@@ -8,6 +8,6 @@ def prime? (num)
   until i * i >= num
     array << i
     i++
-  end
+  
   array
 end
