@@ -10,5 +10,5 @@ def prime? (num)
     array << i
     i++
   end
-  array
+  
 end
